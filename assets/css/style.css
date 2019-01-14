@@ -10,30 +10,40 @@ h1 {
     margin: auto;
     font-weight: normal;
     text-align: center;
-}
-
-.container {
-    width: 60%;
-    height: auto;
-    margin: auto;
-    position: relative;
+    padding: 25px;
 }
 
 .row {
-    padding: 25px;
     height: auto;
+    margin: auto;
 }
 
-div.color {
-    background: -webkit-linear-gradient(rgba(15, 27, 37, .1),rgba(15, 27, 37,1));
-    background:    -moz-linear-gradient(rgba(15, 27, 37, .1),rgba(15, 27, 37,1));
-    background:         linear-gradient(rgba(15, 27, 37, .1),rgba(15, 27, 37,1));
+.col-lg-8 {
+    margin: auto;
 }
+
+.col-lg-4 {
+    margin: auto;
+}
+
+.col-sm-8 {
+    margin: auto;
+}
+
+.col-md-8 {
+    margin: auto;
+}
+
+.col-md-4 {
+    margin: auto;
+}
+
+
+
 
 #button {
     background-color: rgba(228, 211,103,0);
-    width: 50%;
-    margin: 0 25%;
+    margin: auto;
     border-width: 1.5pt;
     border-color:  rgba(22, 40, 56, 0.4);
     padding: 10px;
@@ -48,8 +58,9 @@ div.color {
 }
 
 ol {
-    width: 50%;
+    width: 80%;
     margin: 0 25%;
+    padding: 25px;
     font-family: 'Lora', serif;
     font-size: 14pt;
     color: white;

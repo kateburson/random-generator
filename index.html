@@ -9,6 +9,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
+    <!-- link to Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
      
     <!-- link to the jQuery Library -->
@@ -16,16 +19,15 @@
 
 </head>
 
-<body background="assets/images/sunflower-field.jpg">
-    
-    <div class="row">
+<body background="assets/images/sunflower-field.jpg"> 
     <h1>Kelsey's Residency Ranking Generator</h1>
+
+    <div class="row">
+        <button class="col-lg-4 col-md-4 col-sm-8" id="button">Create Ranking</button>
     </div>
-    <br>
-    <div class="container">
-        <button id="button">Create Ranking</button>
-        <br><br><br>
-        <div class="row" id="color">
+<br>
+    <div class="row"></div>    
+        <div class="col-lg-8 col-md-8 col-sm-10" id="color">
             <ol id="ranking"></ol>
         </div>
     </div>
